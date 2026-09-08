@@ -43,7 +43,7 @@ with col1:
     umur = st.slider("Kelompok Usia Pendaftar (Binned)", 10, 90, 30, help="Perhatian: Evaluasi menunjukkan model rentan bias terhadap pendaftar usia lanjut.")
     pendapatan = st.slider("Estimasi Pendapatan (Decile)", 0.1, 0.9, 0.5, step=0.1)
     kredit = st.slider("Skor Risiko Kredit Biro", 0, 500, 150, step=10)
-    velocity = st.slider("Velocity (Kecepatan Pengisian Form 6 Jam)", 0, 20000, 5000, step=500, help="Di dataset BAF, pengisian form yang terlalu lambat justru merupakan indikasi kuat penipuan.")
+    velocity = st.slider("Velocity (Kecepatan Pengisian Form 6 Jam)", 0, 20000, 5000, step=100, help="Di dataset BAF, pengisian form yang terlalu lambat justru merupakan indikasi kuat penipuan.")
     
     col_a, col_b = st.columns(2)
     with col_a:
