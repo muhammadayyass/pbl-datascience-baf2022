@@ -31,7 +31,7 @@ def load_artifacts():
 try:
     model, scaler, threshold, cols_fs, cols_scale, template_mentah = load_artifacts()
 except Exception as e:
-    st.error("⚠️ SISTEM TERHENTI: Artifak model (.pkl) tidak ditemukan di direktori GitHub.")
+    st.error(f"⚠️ SISTEM TERHENTI. Detail Error Asli: {e}")
     st.stop()
 
 # 3. Layout Antarmuka
