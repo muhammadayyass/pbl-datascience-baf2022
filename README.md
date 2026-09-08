@@ -27,5 +27,5 @@ Proyek ini menggunakan protokol evaluasi ketat yang diadopsi dari standar riset 
 - `requirements.txt`: Dependensi sistem.
 
 ## Author
-**Kanaya Salsabila Setiawan**  
+**Muhammad Yahya Ayyasy**  
 *Data Analyst Project Portfolio*
