@@ -1,7 +1,7 @@
 # Bank Account Fraud (BAF) Detection & Fairness Audit
 **End-to-End Machine Learning Pipeline for Digital Onboarding Risk Assessment**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://[pbl-datascience-baf2022].streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pbl-datascience-baf2022-8lmr9vkarc7mfckfaea8hy.streamlit.app/)
 
 ## Executive Summary
 Proyek ini mengimplementasikan model *Machine Learning* tingkat lanjut untuk mendeteksi *Application Fraud* pada proses pembukaan rekening bank digital (Digital Onboarding). Dibangun menggunakan dataset **Bank Account Fraud (BAF) NeurIPS 2022**, sistem ini tidak hanya berfokus pada akurasi prediktif, tetapi juga pada kepatuhan regulasi melalui audit keadilan algoritma (*Fairness Audit*).
